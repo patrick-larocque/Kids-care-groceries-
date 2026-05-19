@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "Kids Care",
+    "slug": "kids-care-groceries",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "kidscare",
+    "platforms": ["ios", "android"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.kidscare.groceries"
+    },
+    "android": {
+      "package": "com.kidscare.groceries",
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "plugins": ["expo-router", "expo-secure-store"]
+  }
+}
