@@ -65,7 +65,7 @@ The project does not have a Supabase project yet. To set one up:
    ```
    # apps/web/.env.local and apps/mobile/.env.local
    NEXT_PUBLIC_SUPABASE_URL=https://your-project.supabase.co
-   NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anon-key
+   NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=sb_publishable_...
    ```
 4. Apply the schema by running `packages/db/migrations/0001_initial_schema.sql` in the Supabase SQL editor
 5. Run `pnpm --filter @kids-care/db generate-types` to pull TypeScript types from the live schema
